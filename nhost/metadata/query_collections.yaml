@@ -1,0 +1,13 @@
+- name: allowed-queries
+  definition:
+    queries:
+      - name: Get customers
+        query: |
+          query customers {
+            customer {
+              id
+              first_name
+              last_name
+              email
+            }
+          }
